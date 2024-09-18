@@ -3,13 +3,13 @@
    --green: #007d7b;
    --black: #000000;
    --white: #ffffff;
-   
-   /* Typography - Font Family */
 
-   --font-family: Arial, Helvetica, sans-serif;
+   /*Typography*/
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body{
-    background-color: var(--black);
+    min-width: 458;
+    
     color: var(--black);
 }

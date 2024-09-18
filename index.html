@@ -3,10 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TK Photography</title>
+    <title>TK Photography - TK Photography Gallery</title>
+    <meta name="author" content="Kim Smock">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <header id="back to top">
+    <header id="top">
     <h1>TK Photography</h1>
     
     <h2>About</h2>
@@ -15,22 +17,23 @@
     </header>
     <nav>
         <h2>Main Navigation</h2>
-        About
-        Gallery
-        Contact
-        top
-
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#top">Top</a></li>
+        </ul>
     </nav>
 
-
+    <main></main>
     <h2>Gallery</h2>
         
         <p>Here are some highlights of my work. The locations and year are in the caption.</p> 
 
-
-
-Chile.png
-Chile, 2001
+<figure>
+    <img src="images/Chile.png" alt="Beautiful sunrise in Chile" width="420" height="282">
+    <figcaption>Chile, 2001</figcaption>
+</figure>
 
 Guatemala.png
 Guatemala, 1997
@@ -66,15 +69,16 @@ Wyoming.png
 Wyoming, 2021
 Contact
 Please fill out this form and I'll connect with you soon.
-
+</main>
+    <footer>
+        <section id="contact">
 Your contact information
 Name (Your full name)
 Email (Enter your email address)
 Message (What can I help you with?)
 Submit
-
-Copyright 2021 TK Photography
-
-    
-</body>
+        </section>
+<p><small>copyright &copy; 2021 TK Photography</small></p>
+        </footer>
+    </body>
 </html>
