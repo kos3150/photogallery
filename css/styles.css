@@ -13,3 +13,34 @@ body{
     
     color: var(--black);
 }
+
+header{
+    color:#007d7b;
+    background-color: #ffffff;
+}
+
+
+
+@media screen and (min-width: 458px) {
+    nav {
+        width: fit-content;
+        display: grid;
+        text-align: justify center;
+    }    
+}
+
+@media screen and (min-width: 880px) {
+    nav ul {
+        width: fit-content;
+        display: grid;
+        text-align: justify center;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    nav ul {
+        width: fit-content;
+        display: grid;
+        text-align: justify center;
+    }
+}
