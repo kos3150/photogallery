@@ -10,17 +10,54 @@
 
 body{
     min-width: 458;
-    
-    color: var(--black);
+    color: var(--black);    
 }
 
 header{
     color:#007d7b;
     background-color: #ffffff;
+    text-align:center;  
 }
 
+h1{
+    text-align: center;
+}
 
+h2{
+    text-align: left;
+    color: #000000;
+}
 
+h3{
+    text-align: center;
+}
+
+nav h2{
+   visibility:hidden; 
+}
+
+nav ul li {
+    display: grid;
+    text-align: right;
+    color:#ffffff;
+    margin-bottom: 15px;
+}
+
+nav ul li:last-of-type {
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    left:0px;
+    bottom: 0px;
+}
+
+section span{
+    text-align: center;
+}
+
+/*---------- Breakpoints based on mockups  ----------*/
+
+/*---------- Small-min-width: 458px` --------------*/
 @media screen and (min-width: 458px) {
     nav {
         width: fit-content;
@@ -29,6 +66,7 @@ header{
     }    
 }
 
+/*---------- Medium-min-width: 880px --------------*/
 @media screen and (min-width: 880px) {
     nav ul {
         width: fit-content;
@@ -37,6 +75,7 @@ header{
     }
 }
 
+/*---------- Large-min-width: 1300ps --------------*/
 @media screen and (min-width: 1300px) {
     nav ul {
         width: fit-content;

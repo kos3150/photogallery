@@ -11,12 +11,6 @@
     <header id="top">
     <h1>TK PHOTOGRAPHY</h1>
     </header>
-    <section id="about">
-    <h2>About</h2>
-
-        <p>Hello! I'm TK and I'm a photographer. I love looking at life through the lens of my camera. Landscape photography is my specialty and it's taken me all over the world.</p>
-    </section>
-  
     <nav>
         <h2>Main Navigation</h2>
         <ul>
@@ -26,10 +20,15 @@
             <li><a href="#top">Top</a></li>
         </ul>
     </nav>
+    <section id="about">
+    <h3>About</h3>
+
+        <p>Hello! I'm TK and I'm a photographer. I love looking at life through the lens of my camera. Landscape photography is my specialty and it's taken me all over the world.</p>
+    </section>
 
     <main>
     <section class="gallery">
-    <h2>Gallery</h2>
+    <h3>Gallery</h3>
         
         <p>Here are some highlights of my work. The locations and year are in the caption.</p> 
 
@@ -94,19 +93,38 @@
 <figcaption>Wyoming, 2021</figcaption>
 </figure>
 
-
-Contact
-Please fill out this form and I'll connect with you soon.
-</main>
-    <footer>
-        <section id="contact">
+<!--      
 Your contact information
 Name (Your full name)
 Email (Enter your email address)
 Message (What can I help you with?)
-Submit
-        </section>
-<p><small>copyright &copy; 2021 TK Photography</small></p>
+Submit-->
+
+<section id="form">
+<h3>CONTACT</h3>
+<p>Please fill out this form and I'll connect with you soon
+</section>
+
+<span class="required"></span>
+
+<section>
+    <form action="https://wp.zybooks.com/form-viewer.php" method="POST" target="_blank"></form>
+</section>
+ 
+    <label for="my-name">Name Your full name<span class="required"></span></label>
+        <input type="text" name="my-name" id="my-name" required>
+        <label for="my-email">Email Enter your email address<span class="required">*</span></label>
+        <input type="email" name="my-email" id="my-email" required>
+        <label for="message">Message What can I help you with?</label>
+        <textarea name="message" id="message"></textarea>
+
+        <input type="submit" name="my-submit" id="my-submit" value="Submit Form">
+    </form>
+    </section>
+</main>      
+
+        <footer>
+            <p><small>copyright &copy; 2021 TK Photography</small></p>
         </footer>
     </body>
 </html>
